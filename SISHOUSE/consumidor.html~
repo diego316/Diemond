@@ -1,0 +1,46 @@
+<html>
+<body bgcolor="#dddddd">
+<font size=4 color="#5698dd" face=arial><b> Livraria do Sr. Assis</b> </font><br>
+<font size=3 color="#5959AB" face=arial><b>Cadastro de Consumidores</b> </font><br>
+<form action="consumidor.php" method="post">
+<table>
+<tr>
+<td> <font size=2 color="#222222" face=arial>Código<br> 
+<input type="text" name="con_cod" size ="5" maxlength="5"></font></td>
+<td> <font size=2 color="#222222" face=arial>Nome do consumidor <br> 
+<input type="text" name="con_nome" size ="55" maxlength="55"></font></td>
+</tr>
+<tr>
+<td><font size=2 color="#222222" face=arial>CPF<br>
+<input type="text" name="con_cpf" size ="11" maxlength="11"></font></td>
+<td><font size=2 color="#222222" face=arial>Identidade<br>
+<input type="text" name="con_id" size ="8" maxlength="8"></font></td>
+</tr>
+<tr>
+<td><font size=2 color="#222222" face=arial>Endere&ccedil;o (rua e n&uacute;mero)<br>
+<input type="text" name="con_ender" size ="15" maxlength="15"></font></td>
+<td><font size=2 color="#222222" face=arial> Cidade <br>
+<input type="text" name="con_cidade" size ="10" maxlength="10"></font></td>
+</tr>
+<tr>
+<td><font size=2 color="#222222" face=arial> Estado <br><SELECT NAME="con_estado">
+<OPTION>AM<OPTION>PA<OPTION>MT<OPTION>MG<OPTION>BA<OPTION>MS
+<OPTION>GO<OPTION>MA <OPTION>RS<OPTION>TO<OPTION>PI<OPTION>SP
+<OPTION>RO<OPTION>RR<OPTION>PR<OPTION>AC<OPTION>CE<OPTION>AP
+<OPTION>PE<OPTION>SC<OPTION>PB<OPTION>RN<OPTION>ES<OPTION>RJ
+<OPTION>AL<OPTION>SE<OPTION>DF
+</SELECT> </font></td>
+<td><font size=2 color="#222222" face=arial> Data de Nascimento <br>
+<input type="text" name="con_datanasc" size ="10" maxlength="10"></font></td>
+</tr>
+<td> <font size=2 color="#222222" face=arial>  Profiss&atilde;o <br>
+<input type="text" name="con_prof" size ="10" maxlength="10"></font></td>
+</tr>
+<tr><td><input type="submit" value="Enviar dados">
+<input type="reset" value="Apagar"> 
+<a href='http://ronaldcosta.url.ph/loja/2013/12/livraria/'>
+<font size=3 color="#5959AB" face=arial><b>Voltar</b></font></a></td></tr>
+</table>
+</form>
+</body>
+</html>
